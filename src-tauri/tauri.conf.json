@@ -27,6 +27,10 @@
         "minHeight": 600
       }
     ],
+    "systemTray": {
+      "iconAsTemplate": true,
+      "iconPath": "icons/128x128.png"
+    },
     "security": {
       "csp": null
     },
