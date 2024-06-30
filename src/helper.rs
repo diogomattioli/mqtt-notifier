@@ -7,6 +7,7 @@ extern "C" {
     async fn invoke(cmd: &str, args: JsValue) -> JsValue;
 }
 
+#[allow(dead_code)]
 pub async fn tauri_command_invoke<I, O>(
     cmd: &str,
     args: I
